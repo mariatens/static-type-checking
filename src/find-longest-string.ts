@@ -5,7 +5,8 @@
  * @param stringArr - array of strings
  * @returns the longest string
  */
-function findLongestString(stringArr: string[]): string { //the differences I can find are that I am defining the parameter as string[] and returns as :string
+function findLongestString(stringArr: string[]): string {
+  //the differences I can find are that I am defining the parameter as string[] and returns as :string
   let longestString = stringArr[0];
   for (const str of stringArr) {
     if (str.length > longestString.length) {
